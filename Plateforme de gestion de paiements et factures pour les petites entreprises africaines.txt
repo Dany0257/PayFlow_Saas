@@ -1,0 +1,52 @@
+AJVDEC-TOGO
+Association des Jeunes Volontaires pour le Développement et d’Échanges Culturels-Togo est une
+association humanitaire et de solidarité Internationale.
+A travers les stages et missions de solidarité internationaux, AJVDEC-TOGO et ses partenaires
+vous proposent des missions variés tout au long de l’année, toujours dans l’optique de vous offrir des
+expériences uniques et enrichissantes.
+L’association propose également une aide aux PME togolaises afin de les assister dans leur
+développement et ainsi renforcer leur économie.
+AJVDEC-TOGO accueille des étudiants et les oriente vers des stages de quelques semaines, quelques
+mois ou plus, et ce dans différents domaines d’activités cependant tous les étudiants qui souhaitent
+faire un stage professionnel, tout en vivant une expérience humaine et professionnelle enrichissante,
+AJVDEC-TOGO est là pour offrir de cette opportunité !
+
+STAGE Assistant(e) technicien/ingénieur - Plateforme de gestion de paiements et factures
+pour les petites entreprises africaines
+Objectif :
+- Créer une plateforme web qui permet aux petites entreprises, artisans, freelances,
+commerçants, etc. de :
+- Émettre des factures
+Suivre leurs paiements
+- Être notifiés par SMS/WhatsApp
+Payer ou recevoir par mobile money (Orange Money, M-Pesa, Wave...) ou carte bancaire
+Technologies recommandées :
+- Frontend : Next.js + Tailwind CSS ou MUI
+Backend : Node.js / NestJS ou Django
+Mobile money API : PayDunya, CinetPay, MTN MoMo API, Flutterwave
+Notifications : SMS (via Twilio / local providers), WhatsApp (Cloud API)
+Fonctionnalités clés :
+Création et envoi de factures par lien/email/WhatsApp
+Intégration paiement mobile money
+Espace client : payer et voir ses factures
+- Statistiques : montants encaissés, impayés
+Multilingue (français, anglais)
+
+Pourquoi ce projet est fort :
+Applicable (où mobile money est roi)
+Peut devenir un vrai produit SaaS
+Toucher les TPE/PME, freelances, taxis, vendeurs...
+Profils recherchés
+Pour ce projet nous recommandons les profils : étudiants de 1ère ; 2ème ; 3ème ; 4ème année ; ingénieurs
+logiciels, analystes-programmeurs.
+
+PIECES A FOURNIR
+CV + LETTRE DE MOTIVATION (+ convention de votre établissement si stage
+conventionné)
+N’hésitez pas à nous contacter pour de plus amples informations
+Mail: ajvdectogo@gmail.com
+Tél/WhatsApp: +228 90119058
+Page : www.facebook.com/AJVDECTOGO
+Chaîne: https://www.youtube.com/channel/UC5wiNRYdfkTWr5NrsJSR3xA
+
+
