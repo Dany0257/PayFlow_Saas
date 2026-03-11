@@ -25,7 +25,7 @@ async function bootstrap() {
   );
 
   const port = process.env.PORT || 3001;
-  await app.listen(port);
-  console.log(`🚀 PayFlow API running on http://localhost:${port}/api`);
+  await app.listen(port, '0.0.0.0');
+  console.log(`🚀 PayFlow API running on port ${port} (prefix: /api)`);
 }
 bootstrap();
