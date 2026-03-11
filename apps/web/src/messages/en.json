@@ -1,0 +1,39 @@
+{
+    "Common": {
+        "loading": "Loading...",
+        "save": "Save",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "edit": "Edit",
+        "email": "Email address",
+        "password": "Password",
+        "logout": "Log out"
+    },
+    "Dashboard": {
+        "title": "Dashboard",
+        "overview": "Overview of your activity",
+        "totalRevenue": "Total Revenue",
+        "paidInvoices": "paid invoices",
+        "pending": "Pending",
+        "toCollect": "To collect",
+        "invoices": "Invoices",
+        "overdue": "overdue",
+        "upToDate": "Everything is up to date ✓",
+        "clients": "Clients",
+        "inDatabase": "In your database",
+        "newInvoice": "+ New invoice",
+        "manageClients": "👥 Manage clients",
+        "recentInvoices": "Recent invoices",
+        "viewAll": "View all →",
+        "noInvoices": "No invoices yet",
+        "createFirst": "Create your first invoice to start tracking payments",
+        "createButton": "+ Create my first invoice"
+    },
+    "Navigation": {
+        "dashboard": "Dashboard",
+        "invoices": "Invoices",
+        "clients": "Clients",
+        "payments": "Payments",
+        "settings": "Settings"
+    }
+}

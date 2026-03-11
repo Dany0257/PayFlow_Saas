@@ -1,0 +1,39 @@
+{
+    "Common": {
+        "loading": "Chargement...",
+        "save": "Enregistrer",
+        "cancel": "Annuler",
+        "delete": "Supprimer",
+        "edit": "Modifier",
+        "email": "Adresse email",
+        "password": "Mot de passe",
+        "logout": "Se déconnecter"
+    },
+    "Dashboard": {
+        "title": "Tableau de bord",
+        "overview": "Vue d'ensemble de votre activité",
+        "totalRevenue": "Revenus totaux",
+        "paidInvoices": "factures payées",
+        "pending": "En attente",
+        "toCollect": "À encaisser",
+        "invoices": "Factures",
+        "overdue": "en retard",
+        "upToDate": "Tout est à jour ✓",
+        "clients": "Clients",
+        "inDatabase": "Dans votre base",
+        "newInvoice": "+ Nouvelle facture",
+        "manageClients": "👥 Gérer les clients",
+        "recentInvoices": "Factures récentes",
+        "viewAll": "Voir tout →",
+        "noInvoices": "Aucune facture pour le moment",
+        "createFirst": "Créez votre première facture pour commencer à suivre vos paiements",
+        "createButton": "+ Créer ma première facture"
+    },
+    "Navigation": {
+        "dashboard": "Tableau de bord",
+        "invoices": "Factures",
+        "clients": "Clients",
+        "payments": "Paiements",
+        "settings": "Paramètres"
+    }
+}
