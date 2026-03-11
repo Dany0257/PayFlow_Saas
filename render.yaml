@@ -59,17 +59,16 @@ services:
       - key: NEXT_PUBLIC_API_URL
         value: https://payflow-api.onrender.com/api
 
+  # Instance Redis gérée
+  - type: redis
+    name: payflow-redis
+    plan: free
+    region: frankfurt
+    ipAllowList: [] # Laisser vide pour un accès interne uniquement
+
 databases:
   - name: payflow-db
     plan: free
     region: frankfurt
     databaseName: payflow
     user: payflow
-
-# Experimental Render Redis
-# Need to use a separate private / public service if Redis is not fully supported yet in render.yaml blueprints without a specific early access.
-# Usually, Redis is supported as 'redis' type.
-redis:
-  - name: payflow-redis
-    plan: free
-    region: frankfurt
