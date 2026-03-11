@@ -24,7 +24,7 @@ async function bootstrap() {
     }),
   );
 
-  const port = process.env.PORT || 3001;
+  const port = process.env.PORT ? parseInt(process.env.PORT, 10) : 3001;
   await app.listen(port, '0.0.0.0');
   console.log(`🚀 PayFlow API running on port ${port} (prefix: /api)`);
 }
