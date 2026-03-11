@@ -18,12 +18,13 @@ export class NotificationsService {
     }
 
     private initializeProviders() {
-        // SMS config (Twilio)
         const twilioSid = this.configService.get<string>('TWILIO_ACCOUNT_SID');
         const twilioToken = this.configService.get<string>('TWILIO_AUTH_TOKEN');
-        if (twilioSid && twilioToken) {
+        if (twilioSid && twilioSid.startsWith('AC') && twilioToken) {
             this.twilioClient = new Twilio(twilioSid, twilioToken);
             this.logger.log('Twilio client initialized');
+        } else {
+            this.logger.warn('Twilio configuration is missing or invalid (SID must start with AC). SMS disabled.');
         }
 
         // Email config (SMTP)
