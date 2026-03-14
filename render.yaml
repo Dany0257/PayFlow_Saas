@@ -60,6 +60,9 @@ services:
     region: frankfurt
     dockerBuildContext: .
     dockerCommand: ""
+    buildArgs:
+      - key: NEXT_PUBLIC_API_URL
+        value: https://payflow-api-dl13.onrender.com/api
     envVars:
       - key: NEXT_PUBLIC_API_URL
         value: https://payflow-api-dl13.onrender.com/api
