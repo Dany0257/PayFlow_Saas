@@ -1,8 +1,8 @@
-# PayFlow 🚀
+# PayFlow
 
 Plateforme SaaS de gestion de paiements et factures pour les petites entreprises.
 
-## 🏗 Architecture
+## Architecture
 
 ```
 payflow-saas/
@@ -16,7 +16,7 @@ payflow-saas/
 └── Dockerfile.web
 ```
 
-## 🚀 Démarrage rapide
+## Démarrage rapide
 
 ### Prérequis
 - Node.js 20+
@@ -54,7 +54,7 @@ npm run dev
 - **Frontend** : http://localhost:3000
 - **Backend API** : http://localhost:3001/api
 
-## 📋 Fonctionnalités
+## Fonctionnalités
 
 - ✅ Authentification (JWT)
 - ✅ Gestion des clients (CRUD)
@@ -68,7 +68,7 @@ npm run dev
 - 🔜 Notifications WhatsApp (Cloud API)
 - 🔜 Multilingue (FR/EN)
 
-## 🔧 Stack technique
+## Stack technique
 
 | Composant | Technologie |
 |-----------|-------------|
@@ -79,7 +79,7 @@ npm run dev
 | Paiements | Stripe (Apple/Google Pay) + PayPal |
 | Notifications | Twilio SMS + WhatsApp Cloud API |
 
-## 🐳 Docker
+## Docker
 
 ```bash
 # Build et lancer tout avec Docker

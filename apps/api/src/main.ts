@@ -24,7 +24,9 @@ async function bootstrap() {
     }),
   );
 
-  const port = process.env.PORT ? parseInt(process.env.PORT, 10) : 3001;
+  // Port configuration
+  // Render uses the PORT environment variable. We default to 10000 if not specified (standard for Render).
+  const port = process.env.PORT || 10000;
   await app.listen(port, '0.0.0.0');
   console.log(`🚀 PayFlow API running on port ${port} (prefix: /api)`);
 }

@@ -45,6 +45,10 @@ services:
         value: https://payflow-api.onrender.com
       - key: APP_URL
         value: https://payflow-web.onrender.com
+      - key: PORT
+        value: 10000
+      - key: RENDER
+        value: true
 
 
   # The Frontend Web App (Next.js)
