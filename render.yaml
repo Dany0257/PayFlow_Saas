@@ -42,7 +42,7 @@ services:
       - key: WHATSAPP_PHONE_NUMBER_ID
         sync: false
       - key: API_URL
-        value: https://payflow-api-dl13.onrender.com
+        value: https://payflow-api.onrender.com
       - key: APP_URL
         value: https://payflow-web.onrender.com
       - key: PORT
@@ -60,12 +60,9 @@ services:
     region: frankfurt
     dockerBuildContext: .
     dockerCommand: ""
-    buildArgs:
-      - key: NEXT_PUBLIC_API_URL
-        value: https://payflow-api-dl13.onrender.com/api
     envVars:
       - key: NEXT_PUBLIC_API_URL
-        value: https://payflow-api-dl13.onrender.com/api
+        value: https://payflow-api.onrender.com/api
 
   # Instance Redis gérée
   - type: redis
