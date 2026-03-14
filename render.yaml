@@ -58,6 +58,8 @@ services:
     dockerfilePath: ./Dockerfile.web
     plan: free
     region: frankfurt
+    dockerBuildContext: .
+    dockerCommand: ""
     envVars:
       - key: NEXT_PUBLIC_API_URL
         value: https://payflow-api.onrender.com/api
