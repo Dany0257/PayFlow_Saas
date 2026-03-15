@@ -1,5 +1,7 @@
 # PayFlow
 
+En cours de développement
+
 Plateforme SaaS de gestion de paiements et factures pour les petites entreprises.
 
 ## Architecture
@@ -54,30 +56,17 @@ npm run dev
 - **Frontend** : http://localhost:3000
 - **Backend API** : http://localhost:3001/api
 
-## Fonctionnalités
 
-- ✅ Authentification (JWT)
-- ✅ Gestion des clients (CRUD)
-- ✅ Création et gestion de factures
-- ✅ Calcul automatique des taxes (TVA)
-- ✅ Lien de paiement unique par facture
-- ✅ Page de paiement publique (Apple Pay, Google Pay, PayPal)
-- ✅ Tableau de bord avec statistiques
-- ✅ Interface moderne et responsive
-- 🔜 Notifications SMS (Twilio)
-- 🔜 Notifications WhatsApp (Cloud API)
-- 🔜 Multilingue (FR/EN)
 
 ## Stack technique
 
-| Composant | Technologie |
-|-----------|-------------|
-| Frontend | Next.js 15 + Tailwind CSS |
-| Backend | NestJS + Prisma ORM |
-| Database | PostgreSQL |
-| Auth | JWT + Passport |
-| Paiements | Stripe (Apple/Google Pay) + PayPal |
-| Notifications | Twilio SMS + WhatsApp Cloud API |
+
+Frontend : Next.js 15 + Tailwind CSS
+Backend :NestJS + Prisma ORM 
+Database | PostgreSQL
+Auth | JWT + Passport
+Paiements :Stripe (Apple/Google Pay) + PayPal
+Notifications :Twilio SMS + WhatsApp Cloud API
 
 ## Docker
 
